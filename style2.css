@@ -1,24 +1,20 @@
 /* style2.css */
 
-/* Reset & Global Styles */
-body, h1, h2, h3, p, ul, li, form, input, button {
+/* Reset & Global Styles */  
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
   }
   
-  body {
-    background-color: #c1c1db;
-    color: #333;
-  }
   
   /* Navbar */
   .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
     background-color: rgba(252, 250, 250, 0.971);
     box-shadow: 0 2px 4px rgba(179, 9, 9, 0.1);
   }
